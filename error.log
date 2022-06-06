@@ -1,1 +1,169 @@
 
+2022-06-02 23:54:04,621 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:429]
+2022-06-02 23:54:27,102 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:429]
+2022-06-02 23:54:55,508 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:429]
+2022-06-03 22:00:53,694 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:316]
+2022-06-03 22:07:57,593 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:316]
+2022-06-03 22:37:10,456 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:328]
+2022-06-03 22:40:40,727 ERROR: Exception on /venues/create [POST] [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py", line 148, in create_venue_submission
+    form.name.data,
+NameError: name 'form' is not defined
+2022-06-03 22:43:47,685 ERROR: Exception on /venues/create [POST] [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py", line 148, in create_venue_submission
+    form.name.data,
+NameError: name 'form' is not defined
+2022-06-03 22:43:49,277 ERROR: Exception on /venues/create [POST] [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py", line 148, in create_venue_submission
+    form.name.data,
+NameError: name 'form' is not defined
+2022-06-03 22:46:36,759 ERROR: Exception on /venues/create [POST] [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py", line 148, in create_venue_submission
+    form.name.data,
+NameError: name 'form' is not defined
+2022-06-03 22:47:58,076 ERROR: Exception on /venues/create [POST] [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py", line 148, in create_venue_submission
+    form.name.data,
+NameError: name 'form' is not defined
+2022-06-03 22:48:21,066 ERROR: Exception on /venues/create [POST] [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py", line 148, in create_venue_submission
+    form.name.data,
+NameError: name 'form' is not defined
+2022-06-03 22:56:52,921 ERROR: Exception on /venues/create [POST] [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py", line 148, in create_venue_submission
+    name=form.name.data,
+NameError: name 'form' is not defined
+2022-06-03 22:57:06,098 ERROR: Exception on /venues/create [POST] [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py", line 148, in create_venue_submission
+    name=form.name.data,
+NameError: name 'form' is not defined
+2022-06-03 22:58:54,752 ERROR: Exception on /venues/create [POST] [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\env\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py", line 148, in create_venue_submission
+    # on successful db insert, flash success
+NameError: name 'form' is not defined
+2022-06-04 01:20:26,398 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 01:20:38,505 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 01:21:30,608 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 01:31:10,098 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 01:51:15,625 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 01:53:44,870 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 02:10:28,486 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 02:11:37,686 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 02:19:18,446 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 02:20:26,353 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 02:23:30,411 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 02:24:08,489 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 02:35:26,091 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:338]
+2022-06-04 08:18:58,092 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:336]
+2022-06-04 08:19:40,421 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:336]
+2022-06-04 08:20:47,599 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:336]
+2022-06-04 10:21:10,202 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:336]
+2022-06-04 10:24:17,707 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:337]
+2022-06-04 10:24:45,806 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:337]
+2022-06-04 10:46:35,945 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:340]
+2022-06-04 10:47:05,318 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:340]
+2022-06-04 14:00:38,694 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:376]
+2022-06-04 14:01:08,976 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:376]
+2022-06-04 14:01:22,426 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:376]
+2022-06-04 14:02:31,356 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:376]
+2022-06-04 14:02:44,313 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:376]
+2022-06-05 13:55:11,876 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:419]
+2022-06-05 13:55:49,021 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:419]
+2022-06-05 13:57:35,642 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:419]
+2022-06-05 15:06:35,475 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:424]
+2022-06-05 15:07:05,911 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:09:05,663 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:11:26,061 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:12:22,569 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:12:53,194 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:14:40,628 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:15:15,940 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:15:45,193 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:25:52,037 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:25:59,287 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:26:32,162 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:27:24,824 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:27:53,375 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:28:26,888 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
+2022-06-05 15:29:24,597 INFO: errors [in C:\Users\MAX\Desktop\ALX\Fyyur Project\Fyyur\app.py:425]
