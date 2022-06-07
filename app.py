@@ -24,6 +24,7 @@ from models import db, Venue, Artist, Show
 #----------------------------------------------------------------------------#
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'tHISisAsecret'
 moment = Moment(app)
 app.config.from_object('config')
 db.init_app(app)
@@ -155,6 +156,7 @@ def create_venue_submission():
       flash('Venue ' + request.form['name'] + ' was successfully listed!')
 
   except:
+      print(form.errors)
       flash('An error occurred. Venue ' + data.name + ' could not be listed.')
       db.session.rollback()
 
@@ -353,28 +355,32 @@ def create_artist_form():
 @app.route('/artists/create', methods=['POST'])
 def create_artist_submission():
   form = ArtistForm(request.form)
-  try:
-    artist = Artist(name=form.name.data,
-                    city=form.city.data,
-                    state=form.state.data,
-                    phone=form.phone.data,
-                    genres=form.genres.data,
-                    image_link=form.image_link.data,
-                    facebook_link=form.facebook_link.data,
-                    website=form.website_link.data,
-                    seeking_venue=form.seeking_venue.data,
-                    seeking_description=form.seeking_description.data
-      )
-    db.session.add(artist)
-    db.session.commit()
-    flash('Artist ' + request.form['name'] + ' was successfully listed!')
+  if form.validate():
+    try:
+      artist = Artist(name=form.name.data,
+                      city=form.city.data,
+                      state=form.state.data,
+                      phone=form.phone.data,
+                      genres=form.genres.data,
+                      image_link=form.image_link.data,
+                      facebook_link=form.facebook_link.data,
+                      website=form.website_link.data,
+                      seeking_venue=form.seeking_venue.data,
+                      seeking_description=form.seeking_description.data
+        )
+      db.session.add(artist)
+      db.session.commit()
+      flash('Artist ' + request.form['name'] + ' was successfully listed!')
 
-  except:
-    flash('An error occurred. Artist ' + data.name + ' could not be listed.')
-    db.session.rollback()
-  finally:
-    db.session.close()
-
+    except:
+      
+      flash('An error occurred. Artist ' + data.name + ' could not be listed.')
+      db.session.rollback()
+    finally:
+      db.session.close()
+  else:
+    print(form.errors)
+    return 'e choke'
   return render_template('pages/home.html')
 
   
